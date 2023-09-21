@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Mini Khat",
+    "description" : "Custom extension to modify elements of the UPN blackboard",
+    "version":"1.0",
+    "icons": {
+        "16": "./src/images/MiniKhat_16x16.png",
+        "32": "./src/images/MiniKhat_32x32.png",
+        "64":"./src/images/MiniKhat_64x64.png",
+        "128":"./src/images/MiniKhat_128x128.png"
+      },
+    "action":{
+        "default_popup": "./src/popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "scripting",
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["https://upn.blackboard.com/ultra*"],
+          "js": ["./src/background/service_worker.js","./src/background/animate_title.js"],
+          "css": ["./src/background/service_style.css"]
+        }
+      ]
+}
