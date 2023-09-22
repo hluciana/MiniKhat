@@ -10,8 +10,8 @@
 <p>No more announcements, no more pop-ups and other personal settings that I add just for myself</p>
 
 <div style="display:flex;">
-    <img src="/img/announcement.png" alt="infov2" style="width:45%;height:250px">
-  <img src="/img/popup.png" alt="infov1" style="width:45%;height:250px">
+    <img src="/img/announcement.png" alt="infov2">
+  <img src="/img/popup.png" alt="infov1"">
 </div>
 
 ##
