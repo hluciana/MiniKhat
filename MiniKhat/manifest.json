@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "MiniKhat",
     "description" : "Custom extension to modify elements of the UPN blackboard",
-    "version":"1.0",
+    "version":"1.2",
     "icons": {
         "16": "./src/images/MiniKhat_16x16.png",
         "32": "./src/images/MiniKhat_32x32.png",
