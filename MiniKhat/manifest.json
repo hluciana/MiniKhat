@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Mini Khat",
+    "name": "MiniKhat",
     "description" : "Custom extension to modify elements of the UPN blackboard",
     "version":"1.0",
     "icons": {
@@ -19,7 +19,7 @@
     ],
     "content_scripts": [
         {
-          "matches": ["https://upn.blackboard.com/ultra*"],
+          "matches": ["https://upn.blackboard.com/ultra/*"],
           "js": ["./src/background/service_worker.js","./src/background/animate_title.js"],
           "css": ["./src/background/service_style.css"]
         }
