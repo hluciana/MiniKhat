@@ -1,5 +1,5 @@
 <h1 align="center"><img src="/img/MiniKhat.png" alt="razenager" width="448px" height="240px"></h1>
-<h2 align="center">MiniKhat v1.0</h2>
+<h2 align="center">MiniKhat v1.2</h2>
 
 ## Description
 
