@@ -1,9 +1,4 @@
-/* anti popup */
-.ms-Layer {
-  display: none !important;
-}
-
-/* data nav */
+/* aside nav */
 #main-content #body-content .account-snapshot,
 #main-content #body-content .profile-content,
 #main-content #body-content .activity-stream,
@@ -12,15 +7,22 @@
 #main-content #body-content .grades-list,
 #main-content #body-content .base-tools,
 /* data courses */ 
-.course-tool-content #course-calendar-body-content,
-.course-tool-content .announcement-list,
-/* .course-tool-content .content-list-item, */
-.course-tool-content .student-grade-overview,
-/* .course-tool-content .gradebook-panel, */
-.course-tool-content .messages-container,
-.course-tool-content .page-group-set,
-/* data exams */
-.panel-content .student-name-header,
-.panel-content .attempt-info .details {
+#main-content .course-tool-content #course-calendar-body-content,
+#main-content .course-tool-content .announcement-list,
+#main-content .course-tool-content .messages-container,
+#main-content .course-tool-content .page-group-set {
   visibility: hidden !important;
+}
+
+/* anti popup - announcement */
+.ms-Layer,
+/* article nav */
+#main-content .course-org-list .course-id,
+/* data courses */
+#main-content .course-tool-content .student-grade-overview,
+/* data exams */
+#main-content .panel-content .student-name-header,
+#main-content .panel-content .attempt-info .details,
+#main-content .panel-content .automated-feedback-banner {
+  display: none !important;
 }
