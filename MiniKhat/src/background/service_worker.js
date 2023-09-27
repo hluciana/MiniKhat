@@ -9,60 +9,28 @@ const observer = new MutationObserver((mutations) => {
       const fullName = dataNodes.querySelector(".base-navigation-button  bdi");
       if (fullName) fullName.textContent = "John Doe";
 
-      let location = window.location.href;
+      const location = window.location.href;
 
       switch (location) {
-        case "https://upn.blackboard.com/ultra/course":
-          dataContent(
-            dataNodes.querySelectorAll(".element-details .instructors bdi")
-          );
-          break;
+        case "https://upn.blackboard.com/ultra/institution-page":
         case "https://upn.blackboard.com/ultra/profile":
-          BlockMessage(
-            document.querySelector(
-              "#main-content #body-content .profile-content"
-            )
-          );
-          break;
         case "https://upn.blackboard.com/ultra/stream":
-          BlockMessage(
-            document.querySelector(
-              "#main-content #body-content .activity-stream"
-            )
-          );
-          break;
         case "https://upn.blackboard.com/ultra/calendar":
-          BlockMessage(
-            document.querySelector(
-              "#main-content #body-content .calendar-wrapper"
-            )
-          );
-          break;
         case "https://upn.blackboard.com/ultra/messages":
-          BlockMessage(
-            document.querySelector("#main-content #body-content .messages-list")
-          );
-          break;
         case "https://upn.blackboard.com/ultra/grades":
-          BlockMessage(
-            document.querySelector("#main-content #body-content .grades-list")
-          );
-          break;
         case "https://upn.blackboard.com/ultra/tools":
-          BlockMessage(
-            document.querySelector("#main-content #body-content .base-tools")
-          );
+          BlockMessage();
           break;
         default:
           if (location.includes("https://upn.blackboard.com/ultra/courses")) {
             if (location.includes("outline")) {
-              let teacherFullName = document.querySelectorAll(
+              const teacherFullName = document.querySelectorAll(
                 "#course-instructors-panel bdi"
               );
-              let teacherImg = document.querySelectorAll(
+              const teacherImg = document.querySelectorAll(
                 "#course-instructors-panel img"
               );
-              let details = document.getElementsByClassName(
+              const details = document.getElementsByClassName(
                 "course-outline__details-and-actions"
               );
 
@@ -90,7 +58,7 @@ const observer = new MutationObserver((mutations) => {
               location.includes("messages") ||
               location.includes("enrollments")
             ) {
-              let dataCourseNav = document.querySelector(
+              const dataCourseNav = document.querySelector(
                 "#main-content .course-tool-content"
               );
               if (dataCourseNav) dataCourseNav.style.visibility = "hidden";
@@ -104,23 +72,14 @@ const observer = new MutationObserver((mutations) => {
 
 observer.observe(document.body, { childList: true, subtree: true });
 
-function dataContent(coursesTeachers) {
-  if (coursesTeachers) {
-    coursesTeachers.forEach((e) => {
-      e.textContent = "----------------------------------------";
-    });
-  }
-}
+function BlockMessage() {
+  if (document.getElementById("minikhat")) return;
 
-function BlockMessage(content) {
-  if (!content || document.getElementById("minikhat")) return;
-
-  let section = document.getElementById("main-content-inner");
+  const section = document.getElementById("main-content-inner");
 
   if (!section) return;
   
-  content.style.visibility = "hidden";
-  let div = document.createElement("div");
+  const div = document.createElement("div");
   div.textContent = "BLOCKED BY MINIKHAT";
   div.style.position = "absolute";
   div.style.fontSize = "10vw";
