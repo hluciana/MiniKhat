@@ -1,28 +1,11 @@
-/* aside nav */
-#main-content #body-content .account-snapshot,
-#main-content #body-content .profile-content,
-#main-content #body-content .activity-stream,
-#main-content #body-content .calendar-wrapper,
-#main-content #body-content .messages-list,
-#main-content #body-content .grades-list,
-#main-content #body-content .base-tools,
-/* data courses */ 
-#main-content .course-tool-content #course-calendar-body-content,
-#main-content .course-tool-content .announcement-list,
-#main-content .course-tool-content .messages-container,
-#main-content .course-tool-content .page-group-set {
-  visibility: hidden !important;
-}
-
-/* anti popup - announcement */
+/* popup - announcement */
 .ms-Layer,
-/* article nav */
-#main-content .course-org-list .course-id,
-/* data courses */
+/* details and actions */
 #main-content .course-tool-content .student-grade-overview,
-/* data exams */
+/* data exam */
 #main-content .panel-content .student-name-header,
 #main-content .panel-content .attempt-info .details,
+#main-content .panel-content .override-notification,
 #main-content .panel-content .automated-feedback-banner {
   display: none !important;
 }
