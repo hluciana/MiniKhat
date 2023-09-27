@@ -56,18 +56,28 @@ const observer = new MutationObserver((mutations) => {
         default:
           if (location.includes("https://upn.blackboard.com/ultra/courses")) {
             if (location.includes("outline")) {
-              let teacherFullName = document.querySelector(
+              let teacherFullName = document.querySelectorAll(
                 "#course-instructors-panel bdi"
               );
-              let teacherImg = document.querySelector(
+              let teacherImg = document.querySelectorAll(
                 "#course-instructors-panel img"
               );
               let details = document.getElementsByClassName(
                 "course-outline__details-and-actions"
               );
 
-              if (teacherFullName) teacherFullName.textContent = "HAPPY LIFE";
-              if (teacherImg) teacherImg.style.visibility = "hidden";
+              if (teacherFullName) {
+                teacherFullName.forEach((e) => {
+                  e.textContent = "HAPPY LIFE";
+                });
+              }
+              
+              if (teacherImg) {
+                teacherImg.forEach((e) => {
+                  e.style.visibility = "hidden";
+                });
+              }
+              
               if (details) {
                 while (details.length > 0) {
                   details[0].parentNode.removeChild(details[0]);
@@ -80,7 +90,10 @@ const observer = new MutationObserver((mutations) => {
               location.includes("messages") ||
               location.includes("enrollments")
             ) {
-              // code...
+              let dataCourseNav = document.querySelector(
+                "#main-content .course-tool-content"
+              );
+              if (dataCourseNav) dataCourseNav.style.visibility = "hidden";
             }
           }
           break;
@@ -94,7 +107,7 @@ observer.observe(document.body, { childList: true, subtree: true });
 function dataContent(coursesTeachers) {
   if (coursesTeachers) {
     coursesTeachers.forEach((e) => {
-      e.textContent = "--------------------";
+      e.textContent = "----------------------------------------";
     });
   }
 }
@@ -105,7 +118,8 @@ function BlockMessage(content) {
   let section = document.getElementById("main-content-inner");
 
   if (!section) return;
-
+  
+  content.style.visibility = "hidden";
   let div = document.createElement("div");
   div.textContent = "BLOCKED BY MINIKHAT";
   div.style.position = "absolute";
