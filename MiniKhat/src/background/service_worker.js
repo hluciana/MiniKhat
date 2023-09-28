@@ -23,35 +23,7 @@ const observer = new MutationObserver((mutations) => {
           break;
         default:
           if (location.includes("https://upn.blackboard.com/ultra/courses")) {
-            if (location.includes("outline")) {
-              const teacherFullName = document.querySelectorAll(
-                "#course-instructors-panel bdi"
-              );
-              const teacherImg = document.querySelectorAll(
-                "#course-instructors-panel img"
-              );
-              const details = document.getElementsByClassName(
-                "course-outline__details-and-actions"
-              );
-
-              if (teacherFullName) {
-                teacherFullName.forEach((e) => {
-                  e.textContent = "HAPPY LIFE";
-                });
-              }
-              
-              if (teacherImg) {
-                teacherImg.forEach((e) => {
-                  e.style.visibility = "hidden";
-                });
-              }
-              
-              if (details) {
-                while (details.length > 0) {
-                  details[0].parentNode.removeChild(details[0]);
-                }
-              }
-            } else if (
+            if (
               location.includes("calendar") ||
               location.includes("announcements") ||
               location.includes("engagement") ||
