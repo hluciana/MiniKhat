@@ -6,8 +6,8 @@ const observer = new MutationObserver((mutations) => {
       mutation.addedNodes[0] instanceof Element
     ) {
       const dataNodes = mutation.addedNodes[0];
-      const fullName = dataNodes.querySelector(".base-navigation-button  bdi");
-      if (fullName) fullName.textContent = "John Doe";
+      const studentName = dataNodes.querySelector(".base-navigation-button  bdi");
+      if (studentName) studentName.textContent = "John Doe";
 
       const location = window.location.href;
 
