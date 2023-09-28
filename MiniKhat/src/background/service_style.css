@@ -1,6 +1,8 @@
 /* popup - announcement */
 .ms-Layer,
-/* details,actions and teachers info*/
+/* course teacher name */
+#main-content .element-details .instructors bdi,
+/* details,actions and teachers info */
 #main-content .course-outline-row aside,
 /* data exam */
 #main-content .panel-content .student-name-header,
