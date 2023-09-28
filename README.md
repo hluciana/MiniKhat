@@ -30,7 +30,7 @@
   <img src="/img/profile_block.png" alt="profile_block" style="width:45%;">
 </div>
 
-#### -> Hidden teachers names
+#### -> Hidden teachers names and number of notification messages
 
 <div style="display:flex;">
   <img src="/img/course_info.png" alt="course_info" style="width:45%;">
