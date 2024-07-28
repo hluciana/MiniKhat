@@ -7,7 +7,7 @@
 
 ## Info
 
-<b>No tomar en cuenta lo borroso/desenfocado ya que se uso para poder proteger la informacion personal de un estudiante que usamos para poder mostrar el funcionamiento de la extension</b>
+<b>No tomar en cuenta lo borroso/desenfocado ya que se uso para poder proteger la informacion personal de un alumno que usamos para poder mostrar el funcionamiento de la extension</b>
 
 <p>-</p>
 
