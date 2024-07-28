@@ -34,7 +34,7 @@
   <img src="/img/profile_block.png" alt="profile_block" style="width:45%;">
 </div>
 
-#### -> Bloqueo de docentes de cada cursos:
+#### -> Bloqueo de docentes de cada curso:
 
 <div style="display:flex;">
   <img src="/img/course_info.png" alt="course_info" style="width:45%;">
