@@ -3,7 +3,7 @@
 
 ## DESCRIPCION
 
-<p>Extension para esconder los datos personales del alumno que se muestran en la web Blackboard <b>UPN</b>(Universidad privada del Norte)</p>
+<p>Extension encargada de ocultar los datos personales del alumno que se muestran en la web Blackboard <b>UPN</b>(Universidad privada del Norte)</p>
 
 ## INFO
 
