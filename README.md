@@ -1,13 +1,17 @@
 <h1 align="center"><img src="/img/MiniKhat.png" alt="MiniKhat" width="448px" height="240px"></h1>
 <h2 align="center">MiniKhat v1.4</h2>
 
-## Description
+## DESCRIPCION
 
-<p>Custom extension to modify elements of the blackboard <b>UPN</b></p>
+<p>Extension para esconder los datos personales del alumno que se muestran en la web Blackboard <b>UPN</b>(Universidad privada del Norte)</p>
 
 ## INFO
 
-#### -> No more announcements and pop-ups
+<b>No tomar en cuenta lo borroso/desenfocado ya que se uso para poder proteger la informacion personal de un estudiante que usamos para poder mostrar el funcionamiento de la extension</b>
+
+<p>-</p>
+
+#### -> Bloqueo de anuncios y ventanas emergentes:
 
 <div style="display:flex;">
   <img src="/img/announcement.png" alt="announcement" style="width:45%;">
@@ -15,56 +19,66 @@
 </div>
 
 
-#### -> Blocked aside sections
+#### -> Bloqueo de secciones:
 
-- Principal page
-- Profile
-- Notifications
-- Calendar
-- Messages
-- Grades
-- Tools
+- Pagina principal
+- Perfil(Se mostrara "John Doe" en vez del nombre del alumno)
+- Notificaciones
+- Calendario
+- Mensajes(No se mostrara si tienes un cierta cantidad de mensajes)
+- Calificaciones
+- Herramientas
   
 <div style="display:flex;">
   <img src="/img/profile.png" alt="profile" style="width:45%;">
   <img src="/img/profile_block.png" alt="profile_block" style="width:45%;">
 </div>
 
-#### -> Hidden teachers names and number of notification messages
+#### -> Bloqueo de docentes de cada cursos:
 
 <div style="display:flex;">
   <img src="/img/course_info.png" alt="course_info" style="width:45%;">
   <img src="/img/course_info_block.png" alt="course_info_block" style="width:45%;">
 </div>
 
-#### -> Hidden course details
+#### -> Bloqueo de detalles de cada curso:
+
+- Nombre del profesor
+- Lista de participantes
+- Link de la clase
+- Asistencia
+- Libro y herramientas
 
 <div style="display:flex;">
   <img src="/img/course_details.png" alt="course_details" style="width:45%;">
   <img src="/img/course_details_block.png" alt="course_details_block" style="width:45%;">
 </div>
 
-#### -> Blocked nav sections
+#### -> Bloqueo de secciones de cada curso:
 
-- Calendar
-- Announcement
+- Calendario
+- Anuncios
 - Debates
-- Messages
-- Groups
+- Mensajes
+- Grupos
 
 <div style="display:flex;">
   <img src="/img/course_nav.png" alt="course_nav" style="width:45%;">
   <img src="/img/course_nav_block.png" alt="course_nav_block" style="width:45%;">
 </div>
 
-#### -> Hidden student name
+#### -> Bloqueo del nombre completo del alumno(Seccion de calificaciones):
 
 <div style="display:flex;">
   <img src="/img/exam_student_name.png" alt="exam_student_name" style="width:45%;">
   <img src="/img/exam_student_name_block.png" alt="exam_student_name_block" style="width:45%;">
 </div>
 
-#### -> Hidden exam info
+#### -> Bloqueo de informacion al entrar a un examen:
+
+- Nombre completo del alumno
+- Hora de envio de examen
+- Mensaje: "El profesor agrego comentarios..."
 
 <div style="display:flex;">
   <img src="/img/exam_data.png" alt="exam_data" style="width:45%;">
