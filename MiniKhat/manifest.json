@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "MiniKhat",
-    "description" : "Custom extension to modify elements of the UPN blackboard",
+    "description" : "Extension to hide the student's personal data displayed on the Blackboard UPN website",
     "version":"1.4",
     "icons": {
         "16": "./src/images/MiniKhat_16x16.png",
