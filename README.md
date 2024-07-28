@@ -1,11 +1,11 @@
 <h1 align="center"><img src="/img/MiniKhat.png" alt="MiniKhat" width="448px" height="240px"></h1>
 <h2 align="center">MiniKhat v1.4</h2>
 
-## DESCRIPCION
+## Descripcion
 
-<p>Extension encargada de ocultar los datos personales del alumno que se muestran en la web Blackboard <b>UPN</b>(Universidad privada del Norte)</p>
+<p>Extension encargada de ocultar los datos personales del alumno que se muestran en la web <a href="https://upn.blackboard.com/">Blackboard UPN</a>(Universidad Privada del Norte)</p>
 
-## INFO
+## Info
 
 <b>No tomar en cuenta lo borroso/desenfocado ya que se uso para poder proteger la informacion personal de un estudiante que usamos para poder mostrar el funcionamiento de la extension</b>
 
