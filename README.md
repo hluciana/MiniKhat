@@ -3,13 +3,11 @@
 
 ## Descripcion
 
-<p>Extension encargada de ocultar los datos personales del alumno que se muestran en la web <a href="https://upn.blackboard.com/">Blackboard UPN</a>(Universidad Privada del Norte)</p>
+Extension encargada de ocultar los datos personales del alumno que se muestran en la web <a href="https://upn.blackboard.com/">Blackboard UPN</a>(Universidad Privada del Norte)
 
 ## Info
 
-<b>No tomar en cuenta lo borroso/desenfocado ya que se uso para poder proteger la informacion personal de un alumno que usamos para poder mostrar el funcionamiento de la extension</b>
-
-<p>-</p>
+<i>No tomar en cuenta lo borroso/desenfocado ya que se uso para poder proteger la informacion personal de un alumno que usamos para poder mostrar el funcionamiento de la extension</i>
 
 #### -> Bloqueo de anuncios y ventanas emergentes:
 
