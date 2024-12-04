@@ -1,0 +1,15 @@
+/* popup - announcement - messages_count */
+.ms-Layer,
+.base-navigation-button-badge,
+/* course teacher(s) */
+#main-content .element-details .instructors,
+/* details,actions and teacher(s) */
+#main-content .course-outline .outline-actions,
+/* data exam */
+#main-content .grades-list aside,
+#main-content .panel-content .student-name-header,
+#main-content .panel-content .attempt-info .details,
+#main-content .panel-content .override-notification,
+#main-content .panel-content .automated-feedback-banner {
+  display: none !important;
+}
