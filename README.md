@@ -1,5 +1,5 @@
-<h1 align="center"><img src="/img/MiniKhat.png" alt="MiniKhat" width="448px" height="240px"></h1>
-<h2 align="center">MiniKhat v1.4</h2>
+<h1 align="center"><img src="/img/OnKhatBoard.png" alt="OnKhatBoard" width="450px" height="240px"></h1>
+<h2 align="center">OnKhatBoard v1.4.1</h2>
 
 ## Descripcion
 
@@ -16,7 +16,6 @@ Extension encargada de ocultar los datos personales del alumno que se muestran e
   <img src="/img/popup.png" alt="popup" style="width:45%;">
 </div>
 
-
 #### -> Bloqueo de secciones:
 
 - Pagina principal
@@ -26,7 +25,7 @@ Extension encargada de ocultar los datos personales del alumno que se muestran e
 - Mensajes(No se mostrara si tienes un cierta cantidad de mensajes)
 - Calificaciones
 - Herramientas
-  
+
 <div style="display:flex;">
   <img src="/img/profile.png" alt="profile" style="width:45%;">
   <img src="/img/profile_block.png" alt="profile_block" style="width:45%;">
@@ -84,4 +83,5 @@ Extension encargada de ocultar los datos personales del alumno que se muestran e
 </div>
 
 ##
+
 <h4 align="center">Created by M3RFR3T</h1>
