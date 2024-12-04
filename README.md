@@ -22,7 +22,7 @@ Extension encargada de ocultar los datos personales del alumno que se muestran e
 - Perfil(Se mostrara "John Doe" en vez del nombre del alumno)
 - Notificaciones
 - Calendario
-- Mensajes(No se mostrara si tienes un cierta cantidad de mensajes)
+- Mensajes(No se mostrara si tiene un cierta cantidad de mensajes)
 - Calificaciones
 - Herramientas
 
